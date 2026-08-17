@@ -5,10 +5,27 @@ build always has its design reference to hand.
 
 | File | What it is |
 | --- | --- |
-| `Liwa-Sport-Club-App-Pitch.pdf` | The full pitch deck, 12 slides, portable and viewable anywhere |
-| `mockup/slide-01.jpg` … `slide-12.jpg` | Each slide rendered as an image, for quick reference and diffing |
+| `screens/` | **The nine iPhone screen mock-ups**, cropped out of the deck and named by what they show |
+| `Liwa-Sport-Club-App-Pitch.pdf` | The full pitch deck the screens came from, 12 slides |
 | `../design-handoff.md` | Design-system notes — colour, type, spacing, component behaviour |
 | `../image-list.md` | Image inventory and intended usage |
+
+## The screens
+
+| File | Screen |
+| --- | --- |
+| `01-races-list.jpg` | Races — eight disciplines with live status badges |
+| `02-race-detail.jpg` | Race detail — entrants, weather advisory, rules, schedule |
+| `03-registration-payment.jpg` | Registration step 2 — saved card and fee breakdown |
+| `04-registration-confirmed.jpg` | Confirmation — booking reference, add to calendar |
+| `05-bookings.jpg` | Bookings — camping, RV parking, VIP camp |
+| `06-community.jpg` | Community — festival stories and athletes to follow |
+| `07-profile-membership.jpg` | Profile — Gold card, QR entry, tier progress |
+| `08-home-night-theme.jpg` | Home in the night theme |
+| `09-home-arabic-rtl.jpg` | Home in Arabic, right-to-left |
+
+Nine screens from twelve slides: the deck repeats the Races slide and the
+Registration slide, and two slides are title cards with no device on them.
 
 The editable source (`Liwa_Sport_Club_-_App_Pitch.pptx`, 37 MB) lives in
 LINKVIVA's OneDrive under *LIWA / LIWA 2026-2027 Preparation / LSC App Mockup*.

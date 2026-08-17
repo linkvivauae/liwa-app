@@ -130,9 +130,9 @@ liwa-app/
 │   ├── images/tabIcons/     Tab bar icons
 │   └── expo.icon/           iOS app icon set
 ├── design/
-│   ├── README.md            Slide index, deck faults, design-vs-build gap list
-│   ├── Liwa-Sport-Club-App-Pitch.pdf   The original 12-slide mock-up
-│   └── mockup/              Each slide as an image
+│   ├── README.md            Screen index, deck faults, design-vs-build gap list
+│   ├── screens/             The nine iPhone screen mock-ups
+│   └── Liwa-Sport-Club-App-Pitch.pdf   The deck they came from
 ├── design-handoff.md        Design system notes for designers
 └── image-list.md            Image inventory and intended usage
 ```
@@ -141,7 +141,7 @@ liwa-app/
 
 ## Notes for future developers
 
-- **The original design mock-up lives in `design/`.** `design/README.md` indexes all 12 slides, flags two duplicated slides in the source deck, and lists what the deck specifies that the build does not yet do — payment capture, QR entry on the membership card, tier progress, add-to-calendar, and per-race weather advisories.
+- **The original design mock-up lives in `design/`.** `design/screens/` holds the nine iPhone screen mock-ups; `design/README.md` indexes them, flags two duplicated slides in the source deck, and lists what the deck specifies that the build does not yet do — payment capture, QR entry on the membership card, tier progress, add-to-calendar, and per-race weather advisories.
 - **All content is sample data.** `src/data/mock.ts` holds the races, bookings and community entries. Replace it with real API calls; keep the record IDs stable, because the registration and confirmation screens reference them.
 - **The theme reacts to real conditions.** `useTimePeriod` shifts the palette by time of day and `useWeather` tints the home hero using live Liwa weather. Both degrade gracefully when the network is unavailable.
 - **Registration and booking flows do not submit anywhere.** They are interface prototypes; the confirmation reference (`LSC-XXX-4821`) is generated locally.
