@@ -41,6 +41,12 @@ jobs:
       - name: Disable Jekyll processing
         run: touch dist/.nojekyll
 
+      # The app is a single-page build, so deep links like /races have no file
+      # of their own. Pages serves 404.html for unknown paths, so pointing that
+      # at the app shell lets the client router take over.
+      - name: Add SPA fallback for deep links
+        run: cp dist/index.html dist/404.html
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -22,7 +22,7 @@
       "package": "com.linkviva.liwasportclub"
     },
     "web": {
-      "output": "static",
+      "output": "single",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
