@@ -1,0 +1,65 @@
+{
+  "tabs": {
+    "home": "Home",
+    "races": "Races",
+    "bookings": "Bookings",
+    "community": "Community",
+    "profile": "Profile"
+  },
+  "home": {
+    "heroCountdownTitle": "Next event in",
+    "daysRemaining_one": "{{count}} day",
+    "daysRemaining_other": "{{count}} days",
+    "heroRegisterTitle": "Register for {{eventName}}",
+    "heroDeadline": "Deadline: {{date}}",
+    "statsRaces": "Races",
+    "statsBookings": "Bookings",
+    "statsParticipants": "Participants",
+    "newsTitle": "News & announcements",
+    "viewSchedule": "View full schedule",
+    "quickRegister": "Register",
+    "quickBook": "Book Now",
+    "quickCommunity": "Community",
+    "bookSectionTitle": "Book your spot",
+    "seeAll": "See all"
+  },
+  "races": {
+    "title": "Races",
+    "statusOpen": "Open",
+    "statusClosingSoon": "Closes in {{days}}d",
+    "statusFull": "Full",
+    "statusClosed": "Closed",
+    "register": "Register",
+    "rules": "Rules",
+    "schedule": "Schedule"
+  },
+  "bookings": {
+    "title": "Bookings",
+    "camping": "Camping",
+    "rvParking": "RV Parking",
+    "vipCamp": "VIP Camp",
+    "checkAvailability": "Check availability",
+    "spotsAvailable": "{{count}} spots available",
+    "fullyBooked": "Fully booked"
+  },
+  "community": {
+    "title": "Community",
+    "follow": "Follow this racer",
+    "following": "Following",
+    "feed": "Event feed",
+    "photoFeed": "From the festival"
+  },
+  "profile": {
+    "title": "Profile",
+    "account": "Account details",
+    "membership": "Digital membership card",
+    "language": "Language",
+    "notifications": "Notification preferences",
+    "aboutClub": "About the Club",
+    "contactUs": "Contact Us"
+  },
+  "common": {
+    "retry": "Retry",
+    "back": "Back"
+  }
+}

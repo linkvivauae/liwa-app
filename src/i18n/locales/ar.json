@@ -1,0 +1,74 @@
+{
+  "tabs": {
+    "home": "الرئيسية",
+    "races": "السباقات",
+    "bookings": "الحجوزات",
+    "community": "المجتمع",
+    "profile": "الملف الشخصي"
+  },
+  "home": {
+    "heroCountdownTitle": "الفعالية القادمة بعد",
+    "daysRemaining_zero": "لا توجد أيام متبقية",
+    "daysRemaining_one": "يوم واحد",
+    "daysRemaining_two": "يومان",
+    "daysRemaining_few": "{{count}} أيام",
+    "daysRemaining_many": "{{count}} يومًا",
+    "daysRemaining_other": "{{count}} يوم",
+    "heroRegisterTitle": "التسجيل في {{eventName}}",
+    "heroDeadline": "آخر موعد: {{date}}",
+    "statsRaces": "السباقات",
+    "statsBookings": "الحجوزات",
+    "statsParticipants": "المشاركون",
+    "newsTitle": "الأخبار والإعلانات",
+    "viewSchedule": "عرض الجدول الكامل",
+    "quickRegister": "التسجيل",
+    "quickBook": "احجز الآن",
+    "quickCommunity": "المجتمع",
+    "bookSectionTitle": "احجز مكانك",
+    "seeAll": "عرض الكل"
+  },
+  "races": {
+    "title": "السباقات",
+    "statusOpen": "التسجيل مفتوح",
+    "statusClosingSoon": "يُغلق بعد {{days}} يوم",
+    "statusFull": "مكتمل",
+    "statusClosed": "مغلق",
+    "register": "سجّل الآن",
+    "rules": "القواعد",
+    "schedule": "الجدول الزمني"
+  },
+  "bookings": {
+    "title": "الحجوزات",
+    "camping": "التخييم",
+    "rvParking": "مواقف السيارات المتنقلة",
+    "vipCamp": "مخيم كبار الشخصيات",
+    "checkAvailability": "تحقق من التوفر",
+    "spotsAvailable_zero": "لا توجد أماكن متاحة",
+    "spotsAvailable_one": "مكان واحد متاح",
+    "spotsAvailable_two": "مكانان متاحان",
+    "spotsAvailable_few": "{{count}} أماكن متاحة",
+    "spotsAvailable_many": "{{count}} مكانًا متاحًا",
+    "spotsAvailable_other": "{{count}} مكان متاح",
+    "fullyBooked": "مكتمل الحجز"
+  },
+  "community": {
+    "title": "المجتمع",
+    "follow": "تابع هذا المتسابق",
+    "following": "متابَع",
+    "feed": "أخبار الفعالية",
+    "photoFeed": "من الفعالية"
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "account": "بيانات الحساب",
+    "membership": "بطاقة العضوية الرقمية",
+    "language": "اللغة",
+    "notifications": "تفضيلات الإشعارات",
+    "aboutClub": "عن النادي",
+    "contactUs": "اتصل بنا"
+  },
+  "common": {
+    "retry": "إعادة المحاولة",
+    "back": "رجوع"
+  }
+}
