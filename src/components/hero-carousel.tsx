@@ -86,7 +86,17 @@ function CrossfadeLayer({ source, active }: { source: ImageSourcePropType; activ
 
   return (
     <Animated.View style={[StyleSheet.absoluteFill, animatedStyle]}>
-      <Image source={source} style={StyleSheet.absoluteFill} contentFit="cover" />
+      {/* The hero is the largest paint on the Home screen and the first thing a
+          member sees, so it is fetched at high priority. expo-image still emits
+          loading="lazy" on web, but browsers load in-viewport lazy images
+          immediately; the priority hint is what moves it up the queue. */}
+      <Image
+        source={source}
+        style={StyleSheet.absoluteFill}
+        contentFit="cover"
+        priority="high"
+        cachePolicy="memory-disk"
+      />
     </Animated.View>
   );
 }
