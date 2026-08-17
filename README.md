@@ -81,7 +81,16 @@ eas build --platform android
 
 **Web.** `npx expo export --platform web` writes a fully static bundle to `dist/`, which can be served by any static host — GitHub Pages, Netlify, Vercel, or Azure Static Web Apps. `dist/` is intentionally git-ignored; build it in CI rather than committing it.
 
-Note that static export produces routes as `.html` files (`/races`, `/races/[id]`, `/bookings`, `/community`, `/profile`). A host that rewrites unknown paths to `index.html` will also work.
+This repository deploys automatically. `.github/workflows/deploy-web.yml` type-checks, exports and publishes to GitHub Pages on every push to `main`:
+
+**https://linkvivauae.github.io/liwa-app/**
+
+Two details make that work, and both matter if you change hosts:
+
+- `app.json` → `experiments.baseUrl` is set to `/liwa-app`, because GitHub Pages serves the project from a sub-path. Serving from a domain root instead means removing that key and rebuilding.
+- The workflow writes a `.nojekyll` file into `dist/`. Without it GitHub Pages runs Jekyll, which silently discards the `_expo/` directory and the whole bundle 404s.
+
+Static export produces routes as `.html` files (`/races`, `/races/[id]`, `/bookings`, `/community`, `/profile`). A host that rewrites unknown paths to `index.html` will also work.
 
 **Mobile.** Distribute through EAS Build and submit with `eas submit`. The bundle identifier and Android package are both `com.linkviva.liwasportclub`.
 
